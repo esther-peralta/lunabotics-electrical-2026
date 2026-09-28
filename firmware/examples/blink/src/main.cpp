@@ -5,30 +5,31 @@
 // This program turns the built-in LED on and off every second.
 //
 
-#include <Arduino.h>
+// #include <Arduino.h>
 
-#ifndef LED_BUILTIN
-#define LED_BUILTIN 2
-#endif
+// (#ifndef LED_BUILTIN
+// #define LED_BUILTIN 2
+// #endif
 
-const int LED_PIN = LED_BUILTIN;
+// const int LED_PIN = LED_BUILTIN;
 
-void setup() {
+//void setup() {
 
   // configure the built-in LED pin as an output
   //
-  pinMode(LED_PIN, OUTPUT);
-}
+  //pinMode(LED_PIN, OUTPUT);
+// }
 
-void loop() {
+//void loop() {
 
   // turn the LED on
   //
-  digitalWrite(LED_PIN, HIGH);
-  delay(1000);
+  // digitalWrite(LED_PIN, HIGH);
+  // delay(1000);
 
   // turn the LED off
   //
-  digitalWrite(LED_PIN, LOW);
-  delay(1000);
-}
+ // digitalWrite(LED_PIN, LOW);
+  // delay(1000);
+//}
+// )
